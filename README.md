@@ -6,7 +6,7 @@ Project description (~1 paragraph)
 
 * [Sai Palutla](https://github.com/palutlan/CIS641-HW2-PALUTLA) (Developer)
 * Member 2 (Role 3, Role 4)
-* Member 3 (Role 5, Role 6)
+* [Srinivasa Reddy Doddy](https://github.com/unmtaken/CIS641-HW2-DODDY) (Developer)
 
 ## Prerequisites
 
