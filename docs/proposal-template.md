@@ -20,4 +20,4 @@ We plan to use Agile Scrum approach with user stories for each sprint
 
 # Anticipated Problems
 
-(Describe any problems you foresee that you will need to overcome)
+Training team members and co-developers on new technologies being used
