@@ -1,18 +1,18 @@
-Team name:
+Team name: Keyboard Warriors
 
-Team members:
+Team members: Srinivasa Kumar Doddy, Sai Palutla, Prashanth Kumar Konduru
 
 # Introduction
 
-(In 2-4 paragraphs, describe your project concept)
+The mobile app we are building is a Note-taking app for iOS. We are implementing this app using Swift. This app will have the ability to scan documents, images and save them to a note. We are going to use a local database to save the notes on the app.
 
 # Anticipated Technologies
 
-(What technologies are needed to build this project)
+Swift and CoreData (Persistence)
 
 # Method/Approach
 
-(What is your estimated "plan of attack" for developing this project)
+We plan to use Agile Scrum approach with user stories for each sprint
 
 # Estimated Timeline
 
