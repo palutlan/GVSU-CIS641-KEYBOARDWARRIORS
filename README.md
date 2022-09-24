@@ -1,6 +1,8 @@
 # Team Name
 
-Project description (~1 paragraph)
+Project description 
+
+The mobile app we are building is a Note-taking app for iOS. We are implementing this app using Swift. This app will have the ability to scan documents, images and save them to a note. We are going to use a local database to save the notes on the app.
 
 ## Team Members and Roles
 
