@@ -14,7 +14,7 @@ Discussion points:
 * We discussed initial requirements : functional and non-functional.
 * Also discussed about end user requirements and their expectations.
 * Identified initial individual roles and responsibilites.
-* Discussed on how sprint planning and tasks should be discussed upon.
+* Discussion on sprint items and product backlog. Debated on whether to use trello or agile board for the user stories.
 
 
 Goals for the next week (this includes individual responsibilities)
