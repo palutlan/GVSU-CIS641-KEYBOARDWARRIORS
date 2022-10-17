@@ -10,6 +10,6 @@ The mobile app we are building is a Note-taking app for iOS. We are implementing
 * [Konduru Prashanth Kumar](https://github.com/Prashanth3672/CIS641-HW2-KONDURU) (Developer)
 * [Srinivasa Reddy Doddy](https://github.com/unmtaken/CIS641-HW2-DODDY) (Developer)
 
-## Prerequisites
+<!-- ## Prerequisites -->
 
-## Run Instructions
+<!-- ## Run Instructions -->
