@@ -12,4 +12,6 @@ The mobile app we are building is a Note-taking app for iOS. We are implementing
 
 <!-- ## Prerequisites -->
 
-<!-- ## Run Instructions -->
+## Run Instructions
+
+Download the XCode Project and run it on simulator using XCode v14.1 and set the run target to Simulator or a physical device.
