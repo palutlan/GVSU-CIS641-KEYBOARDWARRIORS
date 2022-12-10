@@ -1,12 +1,23 @@
-# Overview
-<Describe the purpose of this document in 1 paragraph of less ... hint: it is your SRS>
+# Overview:
+This software requirement specification document outlines the requirements of Notes app for iOS platform. The app has been developed using Swift and Native iOS APIs.
+
+
 # Software Requirements
-<Describe the structure of this section> ## Functional Requirements
-### <Name of Feature 1>
+This section of the document describes the requirements of the application using Natural Language
+Functional requirements section covers details of user requirements.
+Non-functional requirement section provides a user expectation and applies to whole system.
+
+## Functional Requirements
+### User Login:
 | ID | Requirement |
-| :-------------: | :----------: | | FR1 | <Requirement 1> |
-| FR2 | <Requirement 2> |
-| FR3 | <Requirement 3> | |...|...|...|
+| -------------| ---------- |
+| FR1 | The user shall have the capability to create a new note. |
+| FR2 | The user shall be able to edit an existing note. |
+| FR3 | The end user shall close the app and reopen it and shall find his/her notes intact. |
+| FR4 | The end user shall have the capability to delete the notes. |
+| FR5 | The user shall be able to scan text in an image and add it to a note. |
+
+
 ### <Name of Feature 2>
 | ID | Requirement |
 | :-------------: | :----------: | | FR4 | <Requirement 1> |
