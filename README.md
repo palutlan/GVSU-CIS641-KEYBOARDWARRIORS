@@ -14,4 +14,4 @@ The mobile app we are building is a Note-taking app for iOS. We are implementing
 
 ## Run Instructions
 
-Download the XCode Project and run it on simulator using XCode v14.1 and set the run target to Simulator or a physical device.
+Download the XCode Project and run it on simulator using XCode v14.1 and set the run target to Simulator or a physical device. Camera features will need a physical device to test.
