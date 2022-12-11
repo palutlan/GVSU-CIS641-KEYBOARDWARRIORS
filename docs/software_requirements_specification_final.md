@@ -117,7 +117,7 @@ This portion of the SRS will describe a change management strategy for the iOS N
 The application has been designed using HCI guidelines of the AppStore. It has a user centric design which makes using the app intuitive. Usability tests are being performed every sprint to make sure the app has a learning curve significantly smaller than the competing software in the market. Furthermore, the app provides tutorials on first launch to make the end user familiar with the features. Training manuals are available to acclimatize new users to the application. 
 
 ## Integration into organization:
-The app is readily available to install on iOS devices on the Appstore. Adhoc builds of the software can be deployed with requested changes using enterprise distribution using OTA (Over the air) install links. 
+The app is readily available to install on iOS devices on the Appstore. Adhoc builds of the software can be deployed with requested changes using enterprise distribution using OTA (Over the air) install links. The app runs a on all iOS devices including iPhones and iPads making deployment easy.
 
 ## Monitoring Performance:
 Firebase crashlytics is being used to monitor app usage and crashes. Critical crashes and performance hiccups shall be monitored and fixed every sprint and deployed continuously to the Appstore. The app is being updayted frequently to eliminate bugs frequently.
