@@ -120,7 +120,7 @@ The application has been designed using HCI guidelines of the AppStore. It has a
 The app is readily available to install on iOS devices on the Appstore. Adhoc builds of the software can be deployed with requested changes using enterprise distribution using OTA (Over the air) install links. 
 
 ## Monitoring Performance:
-Firebase crashlytics is being used to monitor app usage and crashes. Critical crashes and performance hiccups shall be monitored and fixed every sprint and deployed continuously to the Appstore. The app is being updayted frequently to 
+Firebase crashlytics is being used to monitor app usage and crashes. Critical crashes and performance hiccups shall be monitored and fixed every sprint and deployed continuously to the Appstore. The app is being updayted frequently to eliminate bugs frequently.
 
 ## Deployment strategy:
 The application will be available on iOS initially with an Android version coming soon. Beta builds shall be made available to users who opt-in. The app updates shall be pushed via Appstore. 
