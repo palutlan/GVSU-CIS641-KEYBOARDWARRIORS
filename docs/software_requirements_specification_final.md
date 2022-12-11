@@ -110,7 +110,6 @@ Non-functional requirements provide software quality attributes.
 
 
 # Change Management Plan:
-
 This portion of the SRS will describe a change management strategy for the iOS Notes application - training, integration, performance monitoring, and fixing discovered issues.
 
 ## Training:
@@ -125,9 +124,37 @@ Firebase crashlytics is being used to monitor app usage and crashes. Critical cr
 ## Deployment strategy:
 The application will be available on iOS initially with an Android version coming soon. Beta builds shall be made available to users who opt in. The app updates shall be pushed via Appstore. 
 
+
+# Traceability links
+This section represents relationship between requirements and other project artifacts such as class diagram, Use case diagram and activity diagram.
+
+## Use Case Diagram Traceability
+| Artifact ID | Artifact Name | Requirement ID |
+| :-------------: | :----------: | :----------: |
+|1| [Note List](https://github.com/palutlan/GVSU-CIS641-KEYBOARDWARRIORS/blob/master/artifacts/Use_Case_Diagram.pdf) | FR1, FR4, FR6, FR7|
+|2| [Note Editor](https://github.com/palutlan/GVSU-CIS641-KEYBOARDWARRIORS/blob/master/artifacts/Use_Case_Diagram.pdf) | FR2, FR5, FR12-20|
+
+
+## Class Diagram Traceability
+| Artifact Name | Requirement ID |
+| :-------------: |:----------: |
+| [ListNotesViewController](https://github.com/palutlan/GVSU-CIS641-KEYBOARDWARRIORS/blob/master/artifacts/Class_Diagram.pdf) | FR1, FR4, FR6, FR7 |
+| [EditNoteViewController](https://github.com/palutlan/GVSU-CIS641-KEYBOARDWARRIORS/blob/master/artifacts/Class_Diagram.pdf) | FR2, FR5, FR12-20 |
+| [CoreDataHelper](https://github.com/palutlan/GVSU-CIS641-KEYBOARDWARRIORS/blob/master/artifacts/Class_Diagram.pdf) | FR3, NFR20 |
+
+
+
+## Activity Diagram Traceability
+| Artifact ID | Artifact Name | Requirement ID |
+| :-------------: | :----------: | :----------: |
+| [5]() | xxx | FR1-5, NFR2, NFR26 |
+|[6]()| xxx | FR12-16, NFR25, |
+|[7]()|  xxx | FR2-5, FR8-11, NFR1, NFR3,NFR4, NFR7, NFR10, NFR12, NFR17, NFR16 |
+
 # Project Artifacts
 
 * [Use Case Diagram](https://github.com/palutlan/GVSU-CIS641-KEYBOARDWARRIORS/blob/master/artifacts/Use_Case_Diagram.pdf)
 * [Class and Object diagrams](https://github.com/palutlan/GVSU-CIS641-KEYBOARDWARRIORS/blob/master/artifacts/Class_Diagram.pdf)
+* [Activity Diagram](https://github.com/palutlan/GVSU-CIS641-KEYBOARDWARRIORS/blob/master/artifacts/Class_Diagram.pdf)
 * [Sequence Diagram](https://github.com/palutlan/GVSU-CIS641-KEYBOARDWARRIORS/blob/master/artifacts/Sequence_diagram.jpeg)
 * [State Machine Diagram](https://github.com/palutlan/GVSU-CIS641-KEYBOARDWARRIORS/blob/master/artifacts/State_machine.jpeg)
