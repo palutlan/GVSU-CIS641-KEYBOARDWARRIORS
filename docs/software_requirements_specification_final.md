@@ -125,3 +125,9 @@ Firebase crashlytics is being used to monitor app usage and crashes. Critical cr
 ## Deployment strategy:
 The application will be available on iOS initially with an Android version coming soon. Beta builds shall be made available to users who opt in. The app updates shall be pushed via Appstore. 
 
+# Project Artifacts
+
+* [Use Case Diagram](https://github.com/palutlan/GVSU-CIS641-KEYBOARDWARRIORS/blob/master/artifacts/Use_Case_Diagram.pdf)
+* [Class and Object diagrams](https://github.com/palutlan/GVSU-CIS641-KEYBOARDWARRIORS/blob/master/artifacts/Class_Diagram.pdf)
+* [Sequence Diagram](https://github.com/palutlan/GVSU-CIS641-KEYBOARDWARRIORS/blob/master/artifacts/Sequence_diagram.jpeg)
+* [State Machine Diagram](https://github.com/palutlan/GVSU-CIS641-KEYBOARDWARRIORS/blob/master/artifacts/State_machine.jpeg)
