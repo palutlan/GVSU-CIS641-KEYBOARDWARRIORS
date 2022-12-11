@@ -147,9 +147,9 @@ This section represents relationship between requirements and other project arti
 ## Activity Diagram Traceability
 | Artifact ID | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-| [5]() | xxx | FR1-5, NFR2, NFR26 |
-|[6]()| xxx | FR12-16, NFR25, |
-|[7]()|  xxx | FR2-5, FR8-11, NFR1, NFR3,NFR4, NFR7, NFR10, NFR12, NFR17, NFR16 |
+| [5]() | xxx |  |
+|[6]()| xxx |  |
+|[7]()|  xxx |  |
 
 # Project Artifacts
 
