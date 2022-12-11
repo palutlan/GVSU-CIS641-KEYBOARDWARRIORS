@@ -107,3 +107,20 @@ Non-functional requirements provide software quality attributes.
 | NFR23 |  The app should occupy minimal storage and should be accessible across all kinds of iOS devices. |
 | NFR24 | The app shall be available in different geographical regions on the Appstore. |
 | NFR25 | The app shall be available for beta testing on TestFlight for users who opt-in |
+
+
+# Change Management Plan:
+
+This portion of the SRS will describe a change management strategy for the iOS Notes application - training , integration, performance monitoring and fixing discovered issues.
+
+## Training:
+The application has been designed using HCI guidelines of the AppStore. It has a user centric design which makes using the app intuitive. Usability tests are being performed every sprint to make sure the app has a learning curve significantly smaller than the competing software in the market. Furthermore, the app provides tutorials on first launch to make the end user familiar with the features. Training manuals are available to acclimatize new users to the application. 
+
+## Integration into organization:
+The app is readily available to install on iOS devices on the Appstore. Adhoc builds of the software can be deployed with requested changes using enterprise distribution using OTA (Over the air) install links. 
+
+## Monitoring Performance:
+Firebase crashlytics is being used to monitor app usage and crashes. Critical crashes and performance hiccups shall be monitored and fixed every sprint and deployed continuously to the Appstore. The app is being updayted frequently to 
+
+## Deployment strategy:
+The application will be available on iOS initially with an Android version coming soon. Beta builds shall be made available to users who opt-in. The app updates shall be pushed via Appstore. 
