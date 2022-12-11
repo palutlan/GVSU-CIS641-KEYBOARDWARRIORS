@@ -129,10 +129,10 @@ The application will be available on iOS initially with an Android version comin
 This section represents relationship between requirements and other project artifacts such as class diagram, Use case diagram and activity diagram.
 
 ## Use Case Diagram Traceability
-| Artifact ID | Artifact Name | Requirement ID |
-| :-------------: | :----------: | :----------: |
-|1| [Note List](https://github.com/palutlan/GVSU-CIS641-KEYBOARDWARRIORS/blob/master/artifacts/Use_Case_Diagram.pdf) | FR1, FR4, FR6, FR7|
-|2| [Note Editor](https://github.com/palutlan/GVSU-CIS641-KEYBOARDWARRIORS/blob/master/artifacts/Use_Case_Diagram.pdf) | FR2, FR5, FR12-20|
+| Artifact Name | Requirement ID |
+| :----------: | :----------: |
+| [Note List](https://github.com/palutlan/GVSU-CIS641-KEYBOARDWARRIORS/blob/master/artifacts/Use_Case_Diagram.pdf) | FR1, FR4, FR6, FR7|
+| [Note Editor](https://github.com/palutlan/GVSU-CIS641-KEYBOARDWARRIORS/blob/master/artifacts/Use_Case_Diagram.pdf) | FR2, FR5, FR12-20|
 
 
 ## Class Diagram Traceability
@@ -145,16 +145,15 @@ This section represents relationship between requirements and other project arti
 
 
 ## Activity Diagram Traceability
-| Artifact ID | Artifact Name | Requirement ID |
-| :-------------: | :----------: | :----------: |
-| [5]() | xxx |  |
-|[6]()| xxx |  |
-|[7]()|  xxx |  |
+| Artifact Name | Requirement ID |
+|  :----------: | :----------: |
+| [Activity Diagram](https://github.com/palutlan/GVSU-CIS641-KEYBOARDWARRIORS/blob/master/artifacts/Acitivty_Diagram.PNG) | FR1, FR4, FR6, FR7, FR2, FR5, FR12-20 |
+
 
 # Project Artifacts
 
 * [Use Case Diagram](https://github.com/palutlan/GVSU-CIS641-KEYBOARDWARRIORS/blob/master/artifacts/Use_Case_Diagram.pdf)
 * [Class and Object diagrams](https://github.com/palutlan/GVSU-CIS641-KEYBOARDWARRIORS/blob/master/artifacts/Class_Diagram.pdf)
-* [Activity Diagram](https://github.com/palutlan/GVSU-CIS641-KEYBOARDWARRIORS/blob/master/artifacts/Class_Diagram.pdf)
+* [Activity Diagram](https://github.com/palutlan/GVSU-CIS641-KEYBOARDWARRIORS/blob/master/artifacts/Acitivty_Diagram.PNG)
 * [Sequence Diagram](https://github.com/palutlan/GVSU-CIS641-KEYBOARDWARRIORS/blob/master/artifacts/Sequence_diagram.jpeg)
 * [State Machine Diagram](https://github.com/palutlan/GVSU-CIS641-KEYBOARDWARRIORS/blob/master/artifacts/State_machine.jpeg)
