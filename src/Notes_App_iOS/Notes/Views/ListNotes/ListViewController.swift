@@ -16,6 +16,9 @@ class ListViewController: UIViewController {
     
     @IBOutlet weak private var tableView: UITableView!
     @IBOutlet weak private var notesCountLbl: UILabel!
+    
+    static let identifier = "ListViewController"
+    
     private let searchController = UISearchController()
     
     private var notes: [Note] = [] {

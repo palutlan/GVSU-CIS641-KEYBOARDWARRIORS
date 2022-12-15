@@ -20,6 +20,7 @@
 		35749BD12926E8A4001A4B3B /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35749BCF2926E8A4001A4B3B /* Note+CoreDataClass.swift */; };
 		35749BD22926E8A4001A4B3B /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35749BD02926E8A4001A4B3B /* Note+CoreDataProperties.swift */; };
 		358AD475293AAB020011DF08 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358AD474293AAB020011DF08 /* CoreDataHelper.swift */; };
+		35E9534829497B1B00EC74B6 /* LockScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E9534729497B1B00EC74B6 /* LockScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		35749BCF2926E8A4001A4B3B /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
 		35749BD02926E8A4001A4B3B /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		358AD474293AAB020011DF08 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		35E9534729497B1B00EC74B6 /* LockScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		124C539B26CE941900FDD253 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				35E95346294979F400EC74B6 /* Lock Screen */,
 				124C539E26CE944400FDD253 /* ListNotes */,
 				124C539F26CE944A00FDD253 /* EditNote */,
 			);
@@ -126,6 +129,14 @@
 				124C53B126CE9F1000FDD253 /* Date+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		35E95346294979F400EC74B6 /* Lock Screen */ = {
+			isa = PBXGroup;
+			children = (
+				35E9534729497B1B00EC74B6 /* LockScreenViewController.swift */,
+			);
+			path = "Lock Screen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +216,7 @@
 				124C53AA26CE955B00FDD253 /* NoteTableViewCell.swift in Sources */,
 				124C53B226CE9F1000FDD253 /* Date+Extension.swift in Sources */,
 				35749BD12926E8A4001A4B3B /* Note+CoreDataClass.swift in Sources */,
+				35E9534829497B1B00EC74B6 /* LockScreenViewController.swift in Sources */,
 				124C538926CE867500FDD253 /* SceneDelegate.swift in Sources */,
 				358AD475293AAB020011DF08 /* CoreDataHelper.swift in Sources */,
 				35749BD22926E8A4001A4B3B /* Note+CoreDataProperties.swift in Sources */,
@@ -355,7 +367,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6UAA8A2U3S;
+				DEVELOPMENT_TEAM = PD8CW3G664;
 				INFOPLIST_FILE = Notes/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Notes;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
@@ -376,7 +388,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6UAA8A2U3S;
+				DEVELOPMENT_TEAM = PD8CW3G664;
 				INFOPLIST_FILE = Notes/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Notes;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";

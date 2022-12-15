@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QRd-m0-dDo">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mlC-sF-6Ja">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -157,6 +157,18 @@
                                     <outlet property="delegate" destination="t1j-RP-Vt9" id="UBc-xo-Zln"/>
                                 </connections>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i3S-ad-HbA">
+                                <rect key="frame" x="306" y="761" width="67" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="67" id="dCv-gj-FOg"/>
+                                    <constraint firstAttribute="height" constant="57" id="dzr-OP-A5P"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="ocr" title=""/>
+                                <connections>
+                                    <action selector="scanTextTapped:" destination="t1j-RP-Vt9" eventType="touchUpInside" id="JMs-5z-dhL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Qjj-pj-Zea"/>
                         <color key="backgroundColor" systemColor="systemGray6Color"/>
@@ -164,11 +176,14 @@
                             <constraint firstItem="Qjj-pj-Zea" firstAttribute="trailing" secondItem="GV4-QR-20O" secondAttribute="trailing" constant="20" id="B6S-xl-DpK"/>
                             <constraint firstAttribute="bottom" secondItem="GV4-QR-20O" secondAttribute="bottom" id="Dve-Y8-zY2"/>
                             <constraint firstItem="GV4-QR-20O" firstAttribute="top" secondItem="Qjj-pj-Zea" secondAttribute="top" id="Dzt-nR-rCC"/>
+                            <constraint firstItem="Qjj-pj-Zea" firstAttribute="bottom" secondItem="i3S-ad-HbA" secondAttribute="bottom" id="MUB-lK-vOL"/>
+                            <constraint firstItem="Qjj-pj-Zea" firstAttribute="trailing" secondItem="i3S-ad-HbA" secondAttribute="trailing" constant="20" id="XoP-jO-eey"/>
                             <constraint firstItem="GV4-QR-20O" firstAttribute="leading" secondItem="Qjj-pj-Zea" secondAttribute="leading" constant="20" id="yxJ-Uv-rri"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="c12-O0-Kjl"/>
                     <connections>
+                        <outlet property="scanButton" destination="i3S-ad-HbA" id="1c1-7M-T3K"/>
                         <outlet property="textView" destination="GV4-QR-20O" id="xJ3-yb-16I"/>
                     </connections>
                 </viewController>
@@ -176,10 +191,25 @@
             </objects>
             <point key="canvasLocation" x="1800.0000000000002" y="93.75"/>
         </scene>
+        <!--Lock Screen View Controller-->
+        <scene sceneID="WnS-Tq-jDe">
+            <objects>
+                <viewController id="mlC-sF-6Ja" customClass="LockScreenViewController" customModule="Notes" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2n9-sd-79G">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Tkx-S2-eRk"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d3Y-ue-WKR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-657" y="104"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="ACB-ok-h9f">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="QRd-m0-dDo" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="NavViewController" automaticallyAdjustsScrollViewInsets="NO" id="QRd-m0-dDo" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="HeT-ZJ-jBP">
                         <rect key="frame" x="0.0" y="59" width="393" height="96"/>
@@ -198,9 +228,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="ocr" width="42.666667938232422" height="42.666667938232422"/>
         <image name="square.and.pencil" catalog="system" width="128" height="113"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray6Color">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
