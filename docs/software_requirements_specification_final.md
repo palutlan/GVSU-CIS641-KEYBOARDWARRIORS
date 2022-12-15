@@ -126,7 +126,7 @@ The application will be available on iOS initially with an Android version comin
 
 
 # Traceability links
-This section represents relationship between requirements and other project artifacts such as class diagram, Use case diagram and activity diagram.
+Traceability represents the relationship between Natural language requirements and other project artifacts such as class diagrams, Use case diagrams, and activity diagrams. NLRs introduce ambiguity. So, UML diagrams are used to establish the requirements.
 
 ## Use Case Diagram Traceability
 | Artifact Name | Requirement ID |
